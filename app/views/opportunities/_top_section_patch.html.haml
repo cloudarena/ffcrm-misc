@@ -1,0 +1,2 @@
+.label #{t :product} #{t :currency}
+= f.collection_select(:amount, Product.all, :price, :name, {include_blank:true},:style => "width:110px; text-align:right;")
