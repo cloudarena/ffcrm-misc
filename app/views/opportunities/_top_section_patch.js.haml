@@ -4,9 +4,5 @@
   jQuery('#opportunity_name').change(function() { 
   root = this; 
   select_option = jQuery('option', $(root)).filter(function(i,e){return  jQuery(e).attr('value') ==  root.value;}); 
-  jQuery('#opportunity_amount')[0].value = select_option.attr('data-price')
+  jQuery('#opportunity_amount')[0].value = select_option.attr('data-price')||''
   })
-  
-
-
-

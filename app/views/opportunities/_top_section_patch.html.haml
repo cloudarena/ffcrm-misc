@@ -1,2 +1,2 @@
 .label.req.top #{t :name}:
-=f.select(:name, Product.all.map{|p|[p.name,{'data-price'=>p.price}]}, {},:style => "width:325px;")
+=f.select(:name, Product.all.map{|p|[p.name,{'data-price'=>p.price}]}, {include_blank:true},:style => "width:325px;")
