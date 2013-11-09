@@ -3,7 +3,7 @@
 #   # Task goes here
 # end
 
-namespace :ffcrm-misc do
+namespace "ffcrm-misc" do
   desc "ffcrm-misc's rspec test, run this under fatfreecrm app root. not plugin root"
   task :rspec do
     spec = File.expand_path('../../../spec', __FILE__)
