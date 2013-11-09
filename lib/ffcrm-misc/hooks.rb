@@ -5,6 +5,6 @@ ActiveSupport.on_load(:before_initialize) do
   Dir[hooks_directory, "*_hook.rb"].each do|f|
     puts f
   end
-  require "ffcrm_misc/hooks/opportunity_top_section_hook"
+  require "ffcrm-misc/hooks/opportunity_top_section_hook"
 end
 

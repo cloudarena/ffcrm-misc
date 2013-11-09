@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    ffcrm_misc (0.0.1)
+    ffcrm-misc (0.0.1)
       rails (~> 3.2.13)
       rspec-rails (~> 2.0)
 
